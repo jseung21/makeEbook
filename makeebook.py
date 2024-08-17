@@ -2,11 +2,17 @@ import pyautogui as auto
 import time
 import pyperclip
 
+#########################################
+# 수정할 부분
+#########################################
+
 total_page = 219/2
 book_name = 'ebook'
 capture_pos = (680,296)
 ebook_screen_center_pos = (2222,774)
 sleep_time = 1.0
+
+#########################################
 
 time.sleep(5.)
 
